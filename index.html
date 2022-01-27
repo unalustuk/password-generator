@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>Password Length:</p> 
+    <input type="text" id="passlength-el"><br>
+
+    <input type="checkbox" id="lowercase-el"> 
+    <label> Lowercase Letters</label>
+
+    <input type="checkbox" id="uppercase-el"> 
+    <label>Uppercase Letters</label>
+
+    <input type="checkbox" id="numbers-el"> 
+    <label>Numbers</label>
+
+    <input type="checkbox" id="symbols-el"> 
+    <label>Symbols</label>
+    
+   <br>  <button id="generate-el" onclick="generatePassword()">GENERATE</button>
+    <p id="result-el"></p>
+    <script src="index.js"></script>
+</body>
+</html>
